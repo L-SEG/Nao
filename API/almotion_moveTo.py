@@ -19,9 +19,9 @@ def main(robotIP, PORT=9559):
     # Send robot to Stand Init
     postureProxy.goToPosture("StandInit", 0.5)
 
-    #####################
+    #######################
     ## Enable arms control by move algorithm
-    #####################
+    #######################
     motionProxy.setMoveArmsEnabled(True, True)
     #~ motionProxy.setMoveArmsEnabled(False, False)
 

@@ -19,8 +19,11 @@ def tcp_link(sock, addr):
         elif data=="3":
             print data
             print "This is my first Word!"
+        elif data == "4":
+            print data
+            print "This is my second Word!"
 
-        if not data or data == 'exit':
+        if not data or data == 'exit':           ##
             break
         sock.send(('Hello, %s!' % data.decode('utf-8')).encode('utf-8'))
     sock.close()
