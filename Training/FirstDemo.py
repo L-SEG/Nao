@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Here's some new strange stuff, remember type it exactly.
+#This is a demo for inputting arguments and functions.
 from sys import argv
 script , user_name = argv
 prompt = '>'
