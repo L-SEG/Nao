@@ -8,6 +8,7 @@ print "If you want that,hit RETURN."
 raw_input("?")
 print "Opening the file..."
 target = open(filename, 'w')
+# noinspection PyPep8,PyPep8
 print  "Truncating the file. Goodbye."
 target.truncate()
 print "Now I'm going to ask you for three lines."
@@ -23,4 +24,5 @@ target.write('\n')
 target.write(line3)
 target.write('\n')
 print "And finally, we close it."
+# noinspection PyPep8,PyPep8
 target.close()      #
