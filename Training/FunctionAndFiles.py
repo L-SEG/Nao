@@ -28,4 +28,4 @@ current_line += 1
 print_a_line(current_line, current_file)
 current_line += 1
 print_a_line(current_line, current_file)
-current_file.close()                         #
+current_file.close()  #
